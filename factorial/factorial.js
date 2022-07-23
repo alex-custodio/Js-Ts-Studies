@@ -6,4 +6,6 @@ function factorial(value){
     }
     return value * factorial(value - 1);
 }
+//showing in console
 
+console.log(factorial(5))
